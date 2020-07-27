@@ -1,0 +1,306 @@
+header,
+section{
+	overflow: hidden;
+}
+
+/* Typography */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-weight: 800;
+	letter-spacing: .3rem;
+	color: #000;
+}
+h2{
+	font-weight: bold;
+	letter-spacing: .3rem;
+	color: #585858;
+}
+p{
+	color: #000;
+	font-size: 0.8rem;
+}
+
+/* Buttons */
+
+.contact{
+	color: #fff;
+	background-color: #ff2d2d;
+	border: 0;
+	border-radius: 5px;
+	padding: .9rem 4.5rem;
+	font-weight: bold;
+	font-size: 1rem;
+	display: inline-flex;
+}
+.contact:hover{
+	color: #fff;
+}
+.more{
+	color: #ff2d2d;
+	background-color: #fff;
+	border: 2px solid #ff2d2d;
+	border-radius: 5px;
+	padding: .9rem 4.5rem;
+	font-weight: bold;
+	font-size: 1rem;
+	display: inline-flex;
+}
+.more:hover{
+	color: #ff2d2d;
+}
+.fifth button,
+.six button{
+	background-color: #ff2d2d;
+	color: #fff;
+}
+.six button{
+	width: 100%;
+	border: 0;
+	border-radius: 3px;
+	padding: 1rem; 
+}
+/* Bootstrap Restyles */
+
+.container{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+/* Header */
+
+nav.navbar{
+	background-color: #313030;
+	padding: 0;
+}
+nav.navbar ul.navbar-nav li.nav-item a.nav-link{
+	font-weight: bold;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #e0e0e0;
+	padding: 1.5rem;
+}
+.nav-item:hover{
+	background-color: #ff3f40;
+}
+
+/* Section 1 */
+
+.first{
+	background-color: #f6f2f2;
+}
+.first p{
+	font-weight: 400;
+	font-size: 0.8rem;
+	color: #6f6d6d;
+}
+video{
+	width: 100%;
+	background-color: #c4c0b1;
+	box-shadow: 0 0 25px rgba(0,0,0,0.5);
+	
+}
+
+/* Section 2 */
+
+.second{
+	border-bottom: 2px solid #ececec;
+	padding: 2rem;
+}
+.hr-center{
+	display: block;
+	border-bottom: 2px solid #ff3b3b;
+	width: 8rem;
+	margin: auto;
+	margin-bottom: 1rem;
+}
+
+/* Section 3 */
+
+.third a{
+	color: #737373;
+	font-weight: 600;
+}
+.third a:hover{
+	color: #ff2d2d;
+}
+.third img{
+	width: 15rem;
+	height: 15rem;
+	background-color: #f5f0dd;
+	margin: 20px auto;
+	display: block;
+}
+.hide{
+	display: none;
+}
+.hr-left{
+	display: block;
+	border-bottom: 2px solid #ff3b3b;
+	width: 8rem;
+	margin-bottom: 1rem;
+}
+.main-photo{
+	width: 19rem;
+	height: 25rem;
+	background-color: #f5f0dd;
+	display: block;
+	margin-right: 50px;
+}
+
+/* Section 4 */
+
+.fourth li a{
+	text-transform: capitalize;
+	color: #585858;
+	font-style: italic;
+	font-size: 0.9em;
+	font-weight: 600;
+	padding: 0;
+}
+.fourth li a:hover{
+	color: #ff2d2d;
+}
+.fourth li{
+	padding: .5rem;
+}
+.fourth li:first-child{
+	padding-left: 0rem;
+}
+figure img{
+	width: 11rem;
+	height: 15rem;
+	background-color: #f5f0dd;
+	display: block;
+	float: left;
+	margin: 1rem;
+}
+figure img:first-child{
+	margin-left: 0;
+}
+figure{
+	position: relative;
+	display: table-cell;
+}
+figure p{
+	position: absolute;
+	bottom: 1rem;
+	margin: 0;
+	padding: .3rem 0;
+	width: 11rem;
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: none;
+}
+figure:hover p{
+	display: block;
+}
+
+ /* Section 5 */
+
+.fifth{
+	background-color: #f5f0dd;
+}
+.fifth h2,
+.fifth p{
+	color: #fdfcf8;
+}
+input{
+	border: 0;
+	border-radius: 3px;
+	padding: .7rem;
+	font-size: 16px;
+	height: 2.3rem;
+	width: 20rem;
+	vertical-align: middle;
+}
+
+/* Section 6 */
+
+.six input{
+	background-color: #e5e5e5;
+	color: #676767;
+	padding: .3rem 1rem;
+	border-radius: 5px;
+	width: 100%
+}
+.six textarea{
+	background-color: #e5e5e5;
+	color: #676767;
+	padding: .3rem 1rem;
+	border-radius: 5px;
+	border: 0;
+	margin: 1rem 0;
+	height: 10rem;
+	width: 100%;
+	font-size: 1rem;
+	resize: none;
+}
+.contact-info{
+	background-color: #2d2d2d;
+	position: absolute;
+	right: 0;
+	padding: 4rem 7rem 3rem 2rem;
+}
+.contact-info h3{
+	color: #e0e0e0;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.contact-info p{
+	font-size: 15px;
+	color: #e0e0e0;
+}
+
+/* Footer */
+
+footer{
+	background-color: #313030;
+}
+footer p{
+	color: #b1b1b1;
+}
+
+/* Media Quires */
+
+@media screen and (max-width: 768px){
+	video{
+		margin: 1.5rem 0;;
+	}
+}
+@media screen and (max-width: 768px){
+	.col-md-6{
+		margin-bottom: 1.5rem;
+	}
+}
+@media screen and (max-width: 768px){
+	.fifth button,
+	.six button{
+		width: 100%;
+		margin-bottom: .8rem;
+		background-color: #ff2d2d;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 768px){
+	input{
+		margin-bottom: .8rem;
+	}
+}
+@media screen and (max-width: 768px){
+	.social{
+		margin: auto;
+	}
+}
+@media screen and (max-width: 768px){
+	.six .contact-info{
+		position: inherit;
+		padding: 4rem;
+	}
+}
