@@ -1,2 +1,1 @@
-# Landing-Page-1
-Responsive layout with using Bootstrap and jQuery
+Stanislav 25 years, Front-End Developer
